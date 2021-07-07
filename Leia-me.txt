@@ -1,0 +1,17 @@
+PARA ACESSAR O PERFIL PADRÃO, FAÇA LOGIN COM OS DADOS:
+
+LOGIN: Admin
+SENHA: 1234
+
+CLICANDO EM "COTAÇÕES" VOCÊ SERÁ REDIRECIONADO PARA PÁGINA DE COTAÇÕES QUE
+UTILIZA A API: https://docs.awesomeapi.com.br/api-de-moedas
+
+E NELA VOCÊ PODE SELECIONAR SUAS FAVORITAS, E CLICANDO PARA VOLTAR, VOCÊ VISUALIZARÁ NO PERFIL.
+______________________________________________________________________________
+
+LINK DA API PUBLICADA NO HEROKU: https://api-money-tilt.herokuapp.com/
+ACESSE /USERS
+
+_______________________________________________________________________________
+
+NO FILE "MoneyTiltAPI.postman.json" tem os métodos de utilização da API via Postman.

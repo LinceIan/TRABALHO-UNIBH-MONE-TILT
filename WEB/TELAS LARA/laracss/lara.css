@@ -1,0 +1,50 @@
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
+    color: #01a355;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #01a355;
+}
+#logo { 
+    font-size: 25px;
+    color: #01a355;
+    padding: 11px;
+}
+
+.box{
+    box-shadow: 1px 1px 20px 1px rgb(224, 224, 224);
+    margin-top: 60px;
+    
+    border-radius: 5px;
+    padding: 50px;
+
+
+}
+form {
+    padding-top: 50px;
+}
+
+.text{
+    color: #01A355;
+}
+
+.btn{
+    border-radius: 500px;
+    background-color: #01A355;
+    color: white;
+}
+
+#rodape{
+    background: #01a355;
+    height: 180px;
+    padding-top: 15px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 13px;
+}
+
+#feedback {
+    color: red;
+    font-weight: bold;
+}
+

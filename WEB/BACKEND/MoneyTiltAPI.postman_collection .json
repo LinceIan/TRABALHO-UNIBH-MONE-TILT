@@ -1,0 +1,171 @@
+{
+	"info": {
+		"_postman_id": "c940242b-17be-4c20-a143-075847ef53e5",
+		"name": "MoneyTiltAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://api-money-tilt.herokuapp.com/users",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Lara\",\r\n    \"birthDate:\": \"2000-08-10\",\r\n    \"sexuality\": \"Feminino\",\r\n        \"email\": \"laragdiogo@gmail.com\",\r\n        \"password\": \"lara\",\r\n        \"phone\": \"31987962110\",\r\n        \"favoriteCoins\": [\r\n            \"USD\",\r\n            \"EUR\"\r\n        ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api-money-tilt.herokuapp.com/users",
+					"protocol": "https",
+					"host": [
+						"api-money-tilt",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"users"
+					]
+				},
+				"description": "Rota de criação de usuários."
+			},
+			"response": []
+		},
+		{
+			"name": "https://api-money-tilt.herokuapp.com/users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api-money-tilt.herokuapp.com/users",
+					"protocol": "https",
+					"host": [
+						"api-money-tilt",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"users"
+					]
+				},
+				"description": "Rota de busca de usuários \"all\"."
+			},
+			"response": []
+		},
+		{
+			"name": "https://api-money-tilt.herokuapp.com/users?id=2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api-money-tilt.herokuapp.com/users?id=2",
+					"protocol": "https",
+					"host": [
+						"api-money-tilt",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"users"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "2"
+						}
+					]
+				},
+				"description": "Rota para buscar UM usuário."
+			},
+			"response": []
+		},
+		{
+			"name": "https://api-money-tilt.herokuapp.com/users?email=amanda@gmail.com&password=amanda",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api-money-tilt.herokuapp.com/users?email=amanda@gmail.com&password=amanda",
+					"protocol": "https",
+					"host": [
+						"api-money-tilt",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"users"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "amanda@gmail.com"
+						},
+						{
+							"key": "password",
+							"value": "amanda"
+						}
+					]
+				},
+				"description": "Rota para encontrar usuário pelos dados de LOGIN."
+			},
+			"response": []
+		},
+		{
+			"name": "https://api-money-tilt.herokuapp.com/users/3",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://api-money-tilt.herokuapp.com/users/3",
+					"protocol": "https",
+					"host": [
+						"api-money-tilt",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"users",
+						"3"
+					]
+				},
+				"description": "Rota para DELETAR usuários pelo ID."
+			},
+			"response": []
+		},
+		{
+			"name": "https://api-money-tilt.herokuapp.com/users/3",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"name\": \"Amanda Luiza\",\r\n        \"birthDate:\": \"2001-01-10\",\r\n        \"sexuality\": \"Feminino\",\r\n        \"email\": \"amanda@gmail.com\",\r\n        \"password\": \"amanda\",\r\n        \"phone\": \"3145789621\",\r\n        \"favoriteCoins\": [\r\n            \"USD\",\r\n            \"EUR\"\r\n        ],\r\n        \"id\": 3\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api-money-tilt.herokuapp.com/users/3",
+					"protocol": "https",
+					"host": [
+						"api-money-tilt",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"users",
+						"3"
+					]
+				},
+				"description": "Rota para atualizar os dados do usuário."
+			},
+			"response": []
+		}
+	]
+}

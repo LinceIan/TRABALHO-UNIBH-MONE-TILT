@@ -1,0 +1,104 @@
+body{
+    font-family: Palanquin;
+}
+#logo {
+    font-size: 25px;
+    color: #01a355;
+    padding: 11px;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #01a355;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #01a355;
+}
+
+h3 {
+    position: absolute;
+    width: 394px;
+    height: 84px;
+    
+    top: 75px;
+
+    font-style: normal;
+    font-weight: normal;
+    line-height: 74px;
+
+    color: #01A355;
+}
+
+
+.corpo label {
+    position: absolute;
+
+
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 33px;
+    line-height: 60px;
+
+    color: #696969;
+}
+
+.corpo {
+    position: absolute;
+    width: 420px;
+    height: 720px;
+    left: 70px;
+    top: 150px;
+
+}
+
+.table {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    top: 150px;
+}
+
+
+
+.retangulo label {
+    top: 150px;
+}
+
+.retangulo {
+    position: absolute;
+    width: 570px;
+    height: 500px;
+    
+    top: 125px;
+
+    background: #01A355;
+    border-radius: 11px;
+}
+
+.texto {
+
+    width: 550px;
+    height: 550px;
+    left: 600px;
+    top: px;
+    font-size: 20px;
+    padding-left: 25px;
+    color: #FFFFFF;
+
+}
+
+.btn {
+    background: #01A355;
+    border-radius: 500px;
+    color: white;
+}
+
+.box {
+    box-shadow: 1px 1px 20px 1px rgb(224, 224, 224);
+    margin-top: 60px;
+
+    border-radius: 5px;
+    padding: 50px;
+}

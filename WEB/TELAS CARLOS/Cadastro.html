@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro</title>
+  <link rel="stylesheet" href="carloscss/estilo.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+</head>
+
+<header class = "titulo">
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+    <div class="container-fluid">
+
+      <a class="navbar-brand" id="logo" href="../TELAS CARLOS/Inicio.html">Ʃ MoneyTilt</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+        aria-controls="navbarText" aria-label="toggle-navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+      <div class="navbar-collapse collapse" id="navbarText">
+
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <li>
+            <a class="nav-link active" aria-current="page" href="../TELAS CARLOS/Inicio.html">Início</a>
+          </li>
+          <li>
+            <a class="nav-link" href="../TELAS KAYLER/kayler.html">Quem Somos</a>
+          </li>
+          <li>
+            <a class="nav-link" href="../TELAS FERNANDA/nanda.html">Cotações</a>
+          </li>
+          <li>
+            <strong><a class="nav-link" href="../TELAS LARA/lara.html">Entrar</a></strong>
+          </li>
+
+          <li>
+            <strong><a class="nav-link" href="../TELAS CARLOS/Cadastro.html">Cadastre-se</a></strong>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+  </nav>
+
+
+  <div class="progress-container fixed-top">
+    <div class="progress-bar" id="myBar"></div>
+  </div>
+</header>
+
+<body>
+  <main>
+    <div class="container">
+      <div class="title">Cadastro</div>
+      <div class="content">
+        <form id="form">
+          <div class="user-details">
+            <div class="input-box">
+              <span class="details">Nome Completo*</span>
+              <input type="text" placeholder="Digite seu nome completo" required id="nameField">
+            </div>
+            <div class="input-box">
+              <span class="details">Email</span>
+              <input type="text" placeholder="Digite seu Email" required id="emailField">
+            </div>
+            <div class="input-box">
+              <span class="details">Data de Nascimento</span>
+              <input type="date" required id="birthDateField">
+            </div>
+            <div class="input-box">
+              <span class="details">Senha</span>
+              <input type="password" placeholder="Digite uma senha" required id="passwordField">
+              
+              <span style="color: red;">
+                <b>ATENÇÃO!</b> Não coloque nenhuma senha de uso padrão, 
+                esse sistema não é seguro
+              </span>
+            </div>
+            <div class="input-box">
+              <div id="genero" class="gender-details">
+                <span class="gender-title">Você se identifica como:*</span>
+              
+                <input type="radio" name="gender" id="dot-1" value="Homem">
+                <input type="radio" name="gender" id="dot-2" value="Mulher">
+                <input type="radio" name="gender" id="dot-3" value="Outro">
+
+                <div class="category">
+                  <label for="dot-1">
+                    <span class="dot one"></span>
+                    <span class="gender">Homem</span>
+                  </label>
+
+                  <label for="dot-2">
+                    <span class="dot two"></span>
+                    <span class="gender">Mulher</span>
+                  </label>
+
+                  <label for="dot-3">
+                    <span class="dot three"></span>
+                    <span class="gender">Outro</span>
+                  </label>
+                </div>
+
+              </div>
+            </div>
+
+
+            <div class="input-box">
+              <span class="details">Repita sua senha</span>
+              <input type="password" placeholder="Repita sua senha" required>
+            </div>
+
+            <div class="input-box">
+              <div class="button ">
+                <input type="submit" value="Avançar">
+              </div>
+            </div>
+          </div>
+
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <script src="../BACKEND/javascriptCarlos.js"></script>
+</body>
+
+</html>

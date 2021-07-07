@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Thiago">
+    <meta name="description" content="Página de cadastro">
+    <meta name="keywords" content="cadastro">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Perfil</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="thiagocss/thiago.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Palanquin">
+  </head>
+
+  <body>
+    <script src="../auth.js"></script>
+    <div class="geral">
+      <div class="row">
+        <div class="col-sm-12">
+          <header>
+  
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  
+              <div class="container-fluid">
+  
+                  <a class="navbar-brand" id="logo" href="#">Ʃ MoneyTilt</a>
+  
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" 
+                    aria-controls="navbarText" aria-label="toggle-navigation">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
+                      
+                
+                  <div class="navbar-collapse collapse" id="navbarText">
+  
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+  
+                      <li>
+                        <a class="nav-link active" aria-current="page" href="../TELAS CARLOS/Inicio.html">Início</a>
+                      </li>
+                      <li>
+                        <a class="nav-link" href="../TELAS KAYLER/kayler.html">Quem Somos</a>
+                      </li>
+                      <li>
+                        <a class="nav-link" href="../TELAS FERNANDA/nanda.html">Cotações</a>
+                      </li>
+  
+                    </ul>
+  
+                  </div>
+  
+              </div>
+  
+          </nav>
+       
+        </header>
+      </div>
+      </div>
+    </div>
+            
+      <div class="container">
+
+        <div class="row">
+         
+          <p id="titleName"><span id="bv">Bem vindo,</span></p><br><br>
+
+          <h4 class="titulo">MOEDAS FAVORITAS</h4><br>
+
+          <div id="favoritas">
+            <table class="table table-condensed"><br>
+
+              <tbody id="tbody">
+              </tbody>
+
+            </table>
+          </div>
+
+        </div><!-- final row-->
+
+      </div> <!-- container-->
+
+      <div class="container">
+        <div class="row">
+
+          <div id="perfil"><br>
+
+            <div class="col-sm-10">
+              <h6>Nome Completo</h6>
+              <input type="text" class="form-control" disabled id="nome">
+            </div>
+            <hr>
+
+            <div class="col-sm-4">
+              <h6>Data de nascimento</h6>
+              <input type="date" class="form-control" disabled id="data">
+            </div>
+            <hr>
+
+            <div class="col-sm-8">
+              <h6>Email</h6>
+              <input type="text" class="form-control" disabled id="email"> 
+            </div>
+            <hr>
+
+            <div class="col-sm-6">
+              <h6>Telefone DDD</h6>
+              <input type="text" class="form-control" disabled id="telefone">
+            </div>
+            <hr>
+          </div>
+        </div><!-- row-->
+      </div><!-- container-->
+
+      <script src="../BACKEND/javascript.js"></script>
+  </body>
+  
+</html>
